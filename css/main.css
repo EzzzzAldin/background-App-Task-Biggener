@@ -1,0 +1,67 @@
+.container {
+    margin: 20px auto;
+    width: 1200px;
+}
+.container .colorSwitch {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container .colorSwitch li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+.container .colorSwitch li:first-child {
+    background-color: rgb(255, 145, 0);
+}
+.container .colorSwitch li:nth-child(2) {
+    background-color: rgb(255, 0, 0);
+}
+.container .colorSwitch li:nth-child(3) {
+    background-color: rgb(65, 148, 79);
+}
+.container .colorSwitch li:nth-child(4) {
+    background-color: rgb(44, 10, 38);
+}
+.container h3 {
+    background-color: rgb(255, 145, 0);
+}
+.container div {
+    background-color: rgb(255, 145, 0);
+    padding: 20px;
+    color: #fff;
+}
+.orange .container h3 {
+    background-color: rgb(255, 145, 0);
+}
+.orange .container div {
+    background-color: rgb(255, 145, 0);
+    padding: 20px;
+    color: #fff;
+}
+.red .container h3 {
+    background-color: rgb(255, 0, 0);
+}
+.red .container div {
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    color: #fff;
+}
+.green .container h3 {
+    background-color: rgb(65, 148, 79);
+}
+.green .container div {
+    background-color: rgb(65, 148, 79);
+    padding: 20px;
+    color: #fff;
+}
+.purple .container h3 {
+    background-color: rgb(44, 10, 38);
+}
+.purple .container div {
+    background-color: rgb(44, 10, 38);
+    padding: 20px;
+    color: #fff;
+}
